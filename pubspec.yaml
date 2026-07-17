@@ -1,0 +1,32 @@
+name: nothing_glyph_matrix
+description: >
+  Flutter plugin for the Nothing Phone Glyph Matrix (Phone 3 / 4a Pro).
+  Drive frames via Nothing's Glyph Matrix SDK using showImage, showText,
+  showProgress, and a small priority display helper.
+version: 0.1.0
+# Before `dart pub publish`, set homepage/repository to your public GitHub URL.
+topics:
+  - nothing
+  - glyph
+  - android
+  - phone-3
+
+environment:
+  sdk: ^3.12.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.ibefehdi.nothing_glyph_matrix
+        pluginClass: NothingGlyphMatrixPlugin

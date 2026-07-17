@@ -1,0 +1,30 @@
+nothing_glyph_matrix
+====================
+
+This Flutter plugin (Dart and Kotlin wrapper source) is provided under the MIT
+License (see LICENSE).
+
+Nothing Glyph Matrix SDK
+------------------------
+
+This package does NOT redistribute the Glyph Matrix SDK AAR
+(`glyph-matrix-sdk-2.0.aar`). That binary is proprietary software owned by
+Nothing Technology Limited and is licensed under the Glyph SDK End User License
+Agreement:
+
+  https://github.com/Nothing-Developer-Programme/GlyphMatrix-Developer-Kit
+
+You must obtain the AAR yourself from Nothing's Glyph Matrix Developer Kit and
+place it at:
+
+  android/libs/glyph-matrix-sdk-2.0.aar
+
+(relative to this plugin when developing from source, or follow the README
+for consumer app setup).
+
+This project is not affiliated with, endorsed by, or sponsored by Nothing
+Technology Limited. "Nothing", "Glyph", and related marks are trademarks of
+their respective owners.
+
+Commercial use of Nothing's SDK may require prior written permission from
+Nothing. Contact: GDKsupport@nothing.tech
