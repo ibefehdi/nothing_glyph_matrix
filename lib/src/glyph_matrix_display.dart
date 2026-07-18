@@ -40,8 +40,6 @@ class GlyphMatrixDisplay with WidgetsBindingObserver {
 
   bool get _canDisplay => enabled && supported;
 
-  GlyphMatrix get matrix => _matrix;
-
   Future<void> initialize() async {
     supported = await _matrix.isSupported();
     if (_canDisplay) await refresh();
